@@ -11,7 +11,7 @@ class Scene extends StatelessWidget {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
     return Container(
-      width: double.infinity,
+      width: 1500,
       child: Container(
         // verifyotpxJ7 (4:236)
         padding: EdgeInsets.fromLTRB(22*fem, 14*fem, 20*fem, 501*fem),
