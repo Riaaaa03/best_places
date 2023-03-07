@@ -14,8 +14,9 @@ class Scene extends StatelessWidget {
     double ffem = fem * 0.97;
     return Container(
       width: 1500,
+      height: 3000,
       child: Container(
-        padding: EdgeInsets.fromLTRB(28.81 * fem, 14 * fem, 0 * fem, 76 * fem),
+        padding: EdgeInsets.fromLTRB(28.81, 14, 0, 76),
         width: 1500,
         decoration: BoxDecoration(
           color: Color(0xff393e41),
@@ -31,7 +32,7 @@ class Scene extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    padding: EdgeInsets.fromLTRB(0, 100, 20, 50),
+                    padding: EdgeInsets.fromLTRB(0, 130, 20, 70),
                     width: 300,
                     child: Center(
                       // casuallife3dgreenbackpack11zB (4:201)
