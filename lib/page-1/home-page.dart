@@ -213,92 +213,173 @@ class Scene extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Container(
-                      // frame16BkP (4:412)
-                      width: 372*fem,
-                      height: 76*fem,
-                      child: Image.asset(
-                        'assets/page-1/images/frame-16-8PD.png',
-                        width: 372*fem,
-                        height: 76*fem,
+                    //BOTTOM BAR
+              Container(
+                child: Stack(
+                  children: <Widget>[
+                    Padding(padding: const EdgeInsets.fromLTRB(27.0, 10.0, 0.0, 0.0),
+                      child: SizedBox(
+                        width: 350,
+                        height: 60,
+                        child: DecoratedBox(
+                          decoration: BoxDecoration(
+                            color: Color(0xff62857A),
+                            borderRadius: BorderRadius.circular(35.0),
+                          ),
+
+                        ) ,
                       ),
                     ),
-                  ],
-                ),
-              ),
-            ),
-            Positioned(
-              // navagationsgx3 (4:391)
-              left: 28.8099365234*fem,
-              top: 14*fem,
-              child: Container(
-                width: 341.19*fem,
-                height: 19*fem,
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      // timeNps (I4:391;84:33)
-                      margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 254.35*fem, 0*fem),
-                      child: Text(
-                        '9:41',
-                        textAlign: TextAlign.center,
-                        style: SafeGoogleFont (
-                          'Poppins',
-                          fontSize: 15.2844381332*ffem,
-                          fontWeight: FontWeight.w500,
-                          height: 1.1999998752*ffem/fem,
-                          letterSpacing: -0.1681288332*fem,
-                          color: Color(0xffffffff),
+                    Align(
+                      alignment: Alignment.bottomLeft,
+                      child:Padding(
+                        padding: const EdgeInsets.fromLTRB(42.0, 7.0, 0.0, 0.0),
+                        child: IconButton(
+                          color: Colors.white,
+                          iconSize: 45,
+                          icon: Icon(Icons.home_outlined),
+                          onPressed: () {} ,
+                          //color: Colors.black,
                         ),
                       ),
                     ),
-                    Container(
-                      // containerqCf (I4:391;84:34)
-                      margin: EdgeInsets.fromLTRB(0*fem, 2.73*fem, 0*fem, 6.34*fem),
-                      height: double.infinity,
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Container(
-                            // combinedshapeXbH (I4:391;84:42)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0.07*fem, 4.32*fem, 0*fem),
-                            width: 14.76*fem,
-                            height: 9.24*fem,
-                            child: Image.asset(
-                              'assets/page-1/images/combined-shape.png',
-                              width: 14.76*fem,
-                              height: 9.24*fem,
-                            ),
-                          ),
-                          Container(
-                            // wifiDU7 (I4:391;84:47)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0.03*fem, 4.32*fem, 0*fem),
-                            width: 13.3*fem,
-                            height: 9.55*fem,
-                            child: Image.asset(
-                              'assets/page-1/images/wi-fi-WVh.png',
-                              width: 13.3*fem,
-                              height: 9.55*fem,
-                            ),
-                          ),
-                          Container(
-                            // batteryK1M (I4:391;84:35)
-                            width: 21.15*fem,
-                            height: 9.93*fem,
-                            child: Image.asset(
-                              'assets/page-1/images/battery-Wew.png',
-                              width: 21.15*fem,
-                              height: 9.93*fem,
-                            ),
-                          ),
-                        ],
+                    Align(
+                      alignment: Alignment.bottomLeft,
+                      child:Padding(
+                        padding: const EdgeInsets.fromLTRB(112.0, 9, 0.0, 0.0),
+                        child: IconButton(
+                          color: Colors.white,
+                          iconSize: 40,
+                          icon: Icon(Icons.shopping_cart_outlined),
+                          onPressed: () {
+                            // _navigateToBookmarks(context);
+                          } ,
+                          //color: Colors.black,
+                        ),
                       ),
                     ),
+                    Align(
+                      alignment: Alignment.bottomLeft,
+                      child:Padding(
+                        padding: const EdgeInsets.fromLTRB(182.0, 9.0, 0.0, 0.0),
+                        child: IconButton(
+                          color: Colors.white,
+                          iconSize: 40,
+                          icon: Icon(Icons.restaurant),
+                          onPressed: () {} ,
+                          //color: Colors.black,
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: Alignment.bottomLeft,
+                      child:Padding(
+                        padding: const EdgeInsets.fromLTRB(252.0, 9.0, 0.0, 0.0),
+                        child: IconButton(
+                          color: Colors.white,
+                          iconSize: 40,
+                          icon: Icon(Icons.movie_creation_outlined),
+                          onPressed: () {
+                            // _navigateToProfile(context);
+                          } ,
+                          //color: Colors.black,
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: Alignment.bottomLeft,
+                      child:Padding(
+                        padding: const EdgeInsets.fromLTRB(317.0, 9.0, 0.0, 0.0),
+                        child: IconButton(
+                          color: Colors.white,
+                          iconSize: 40,
+                          icon: Icon(Icons.person_outline),
+                          onPressed: () {
+                            // _navigateToProfile(context);
+                          } ,
+                          //color: Colors.black,
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
                   ],
                 ),
               ),
             ),
+            // Positioned(
+            //   // navagationsgx3 (4:391)
+            //   left: 28.8099365234*fem,
+            //   top: 14*fem,
+            //   child: Container(
+            //     width: 341.19*fem,
+            //     height: 19*fem,
+            //     child: Row(
+            //       crossAxisAlignment: CrossAxisAlignment.center,
+            //       children: [
+            //         Container(
+            //           // timeNps (I4:391;84:33)
+            //           margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 254.35*fem, 0*fem),
+            //           child: Text(
+            //             '9:41',
+            //             textAlign: TextAlign.center,
+            //             style: SafeGoogleFont (
+            //               'Poppins',
+            //               fontSize: 15.2844381332*ffem,
+            //               fontWeight: FontWeight.w500,
+            //               height: 1.1999998752*ffem/fem,
+            //               letterSpacing: -0.1681288332*fem,
+            //               color: Color(0xffffffff),
+            //             ),
+            //           ),
+            //         ),
+            //         Container(
+            //           // containerqCf (I4:391;84:34)
+            //           margin: EdgeInsets.fromLTRB(0*fem, 2.73*fem, 0*fem, 6.34*fem),
+            //           height: double.infinity,
+            //           child: Row(
+            //             crossAxisAlignment: CrossAxisAlignment.center,
+            //             children: [
+            //               Container(
+            //                 // combinedshapeXbH (I4:391;84:42)
+            //                 margin: EdgeInsets.fromLTRB(0*fem, 0.07*fem, 4.32*fem, 0*fem),
+            //                 width: 14.76*fem,
+            //                 height: 9.24*fem,
+            //                 child: Image.asset(
+            //                   'assets/page-1/images/combined-shape.png',
+            //                   width: 14.76*fem,
+            //                   height: 9.24*fem,
+            //                 ),
+            //               ),
+            //               Container(
+            //                 // wifiDU7 (I4:391;84:47)
+            //                 margin: EdgeInsets.fromLTRB(0*fem, 0.03*fem, 4.32*fem, 0*fem),
+            //                 width: 13.3*fem,
+            //                 height: 9.55*fem,
+            //                 child: Image.asset(
+            //                   'assets/page-1/images/wi-fi-WVh.png',
+            //                   width: 13.3*fem,
+            //                   height: 9.55*fem,
+            //                 ),
+            //               ),
+            //               Container(
+            //                 // batteryK1M (I4:391;84:35)
+            //                 width: 21.15*fem,
+            //                 height: 9.93*fem,
+            //                 child: Image.asset(
+            //                   'assets/page-1/images/battery-Wew.png',
+            //                   width: 21.15*fem,
+            //                   height: 9.93*fem,
+            //                 ),
+            //               ),
+            //             ],
+            //           ),
+            //         ),
+            //       ],
+            //     ),
+            //   ),
+            // ),
             Positioned(
               // frame221Py (4:462)
               left: 20*fem,
@@ -410,6 +491,8 @@ class Scene extends StatelessWidget {
           ],
         ),
       ),
-          );
+
+    );
+
   }
 }
