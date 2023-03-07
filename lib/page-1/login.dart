@@ -12,89 +12,87 @@ class Scene extends StatelessWidget {
     double ffem = fem * 0.97;
     return Container(
       width: double.infinity,
-      child: Container(
-        // loginT2j (4:62)
-        padding: EdgeInsets.fromLTRB(22*fem, 14*fem, 20*fem, 246*fem),
-        width: double.infinity,
-        decoration: BoxDecoration (
-          color: Color(0xfff8f9fa),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Container(
-              // navagations7sy (4:296)
-              margin: EdgeInsets.fromLTRB(6.81*fem, 0*fem, 0*fem, 53*fem),
-              width: double.infinity,
-              height: 19*fem,
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Container(
-                    // timecJw (I4:296;84:33)
-                    margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 254.35*fem, 0*fem),
-                    child: Text(
-                      '9:41',
-                      textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
-                        'Poppins',
-                        fontSize: 15.2844381332*ffem,
-                        fontWeight: FontWeight.w500,
-                        height: 1.1999998752*ffem/fem,
-                        letterSpacing: -0.1681288332*fem,
-                        color: Color(0xff000000),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    // containerdzj (I4:296;84:34)
-                    margin: EdgeInsets.fromLTRB(0*fem, 2.73*fem, 0*fem, 6.34*fem),
-                    height: double.infinity,
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          // combinedshapeKsZ (I4:296;84:42)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0.07*fem, 4.32*fem, 0*fem),
-                          width: 14.76*fem,
-                          height: 9.24*fem,
-                          child: Image.asset(
-                            'assets/page-1/images/combined-shape-Thu.png',
-                            width: 14.76*fem,
-                            height: 9.24*fem,
-                          ),
-                        ),
-                        Container(
-                          // wifibKH (I4:296;84:47)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0.03*fem, 4.32*fem, 0*fem),
-                          width: 13.3*fem,
-                          height: 9.55*fem,
-                          child: Image.asset(
-                            'assets/page-1/images/wi-fi-37H.png',
-                            width: 13.3*fem,
-                            height: 9.55*fem,
-                          ),
-                        ),
-                        Container(
-                          // batterysGo (I4:296;84:35)
-                          width: 21.15*fem,
-                          height: 9.93*fem,
-                          child: Image.asset(
-                            'assets/page-1/images/battery.png',
-                            width: 21.15*fem,
-                            height: 9.93*fem,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Container(
+      // child: Container(
+      //   // loginT2j (4:62)
+      //   padding: EdgeInsets.fromLTRB(22*fem, 14*fem, 20*fem, 246*fem),
+      //   width: double.infinity,
+      //   decoration: BoxDecoration (
+      //     color: Color(0xfff8f9fa),
+      //   ),
+      //   child: Column(
+      //     crossAxisAlignment: CrossAxisAlignment.center,
+      //     children: [
+            // Container(
+            //   // navagations7sy (4:296)
+            //   margin: EdgeInsets.fromLTRB(6.81*fem, 0*fem, 0*fem, 53*fem),
+            //   width: double.infinity,
+            //   height: 19*fem,
+            //   child: Row(
+            //     crossAxisAlignment: CrossAxisAlignment.center,
+            //     children: [
+            //       Container(
+            //         // timecJw (I4:296;84:33)
+            //         margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 254.35*fem, 0*fem),
+            //         child: Text(
+            //           '9:41',
+            //           textAlign: TextAlign.center,
+            //           style: SafeGoogleFont (
+            //             'Poppins',
+            //             fontSize: 15.2844381332*ffem,
+            //             fontWeight: FontWeight.w500,
+            //             height: 1.1999998752*ffem/fem,
+            //             letterSpacing: -0.1681288332*fem,
+            //             color: Color(0xff000000),
+            //           ),
+            //         ),
+            //       ),
+            //       Container(
+            //         // containerdzj (I4:296;84:34)
+            //         margin: EdgeInsets.fromLTRB(0, 2.73, 0, 6.34),
+            //         height: double.infinity,
+            //         child: Row(
+            //           crossAxisAlignment: CrossAxisAlignment.center,
+            //           children: [
+            //             Container(
+            //               // combinedshapeKsZ (I4:296;84:42)
+            //               margin: EdgeInsets.fromLTRB(0, 0.07, 4.32, 0),
+            //               width: 14.76,
+            //               height: 9.24,
+            //               child: Image.asset(
+            //                 'assets/page-1/images/combined-shape-Thu.png',
+            //                 width: 14.76,
+            //                 height: 9.24,
+            //               ),
+            //             ),
+                        // Container(
+                        //   // wifibKH (I4:296;84:47)
+                        //   margin: EdgeInsets.fromLTRB(0, 0.03, 4.32, 0),
+                        //   width: 13.3,
+                        //   height: 9.55,
+                        //   child: Image.asset(
+                        //     'assets/page-1/images/wi-fi-37H.png',
+                        //     width: 13.3,
+                        //     height: 9.55,
+                        //   ),
+                        // ),
+                        // Container(
+                        //   // batterysGo (I4:296;84:35)
+                        //   width: 21.15*fem,
+                        //   height: 9.93*fem,
+                        //   child: Image.asset(
+                        //     'assets/page-1/images/battery.png',
+                        //     width: 21.15*fem,
+                        //     height: 9.93*fem,
+                        //   ),
+                        // ),
+                    //   ],
+                    // ),
+
+
+            child: Container(
               // frame14AWo (4:141)
-              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 2*fem, 0*fem),
-              width: 346*fem,
+              margin: EdgeInsets.fromLTRB(20, 60, 2, 0),
+              width: 346,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -149,8 +147,8 @@ class Scene extends StatelessWidget {
                             children: [
                               Container(
                                 // frame1ASF (4:96)
-                                padding: EdgeInsets.fromLTRB(15*fem, 20*fem, 15*fem, 20*fem),
-                                width: double.infinity,
+                                padding: EdgeInsets.fromLTRB(15, 20, 15, 20),
+                                width: 360,
                                 decoration: BoxDecoration (
                                   color: Color(0xffeaf4f1),
                                   borderRadius: BorderRadius.circular(5*fem),
@@ -160,27 +158,32 @@ class Scene extends StatelessWidget {
                                   children: [
                                     Container(
                                       // selectcountryyuV (4:98)
-                                      margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 157*fem, 0*fem),
+                                      margin: EdgeInsets.fromLTRB(0, 0, 157, 0),
                                       child: Text(
                                         'Select Country',
                                         style: SafeGoogleFont (
                                           'Montserrat',
-                                          fontSize: 18*ffem,
+                                          fontSize: 18,
                                           fontWeight: FontWeight.w400,
-                                          height: 1.0189624363*ffem/fem,
-                                          letterSpacing: -0.1681288332*fem,
+                                          height: 1.0189624363,
+                                          letterSpacing: -0.1681288332,
                                           color: Color(0xff204e4a),
                                         ),
                                       ),
                                     ),
+                                    //needs to be changed to button not image
                                     Container(
                                       // navigatebeforemqM (4:233)
-                                      width: 28*fem,
-                                      height: 28*fem,
-                                      child: Image.asset(
+                                      width: 28,
+                                      height: 28,
+                                      child: FlatButton(
+                                        onPressed: (){},
+                                        child:Image.asset(
                                         'assets/page-1/images/navigatebefore.png',
-                                        width: 28*fem,
-                                        height: 28*fem,
+                                        width: 28,
+                                        height: 28,
+                                          color: Color(0xff204e4a),
+                                        ),
                                       ),
                                     ),
                                   ],
@@ -191,26 +194,26 @@ class Scene extends StatelessWidget {
                               ),
                               Container(
                                 // frame1o1M (4:225)
-                                padding: EdgeInsets.fromLTRB(12*fem, 20*fem, 12*fem, 20*fem),
-                                width: double.infinity,
+                                padding: EdgeInsets.fromLTRB(12, 20, 12, 20),
+                                width: 360,
                                 decoration: BoxDecoration (
                                   color: Color(0xffeaf4f1),
-                                  borderRadius: BorderRadius.circular(5*fem),
+                                  borderRadius: BorderRadius.circular(5),
                                 ),
                                 child: Text(
                                   'Enter Phone Number',
                                   style: SafeGoogleFont (
                                     'Montserrat',
-                                    fontSize: 18*ffem,
+                                    fontSize: 18,
                                     fontWeight: FontWeight.w400,
-                                    height: 1.0189624363*ffem/fem,
-                                    letterSpacing: -0.1681288332*fem,
+                                    height: 1.0189624363,
+                                    letterSpacing: -0.1681288332,
                                     color: Color(0xff204e4a),
                                   ),
                                 ),
                               ),
                               SizedBox(
-                                height: 25*fem,
+                                height: 25,
                               ),
                               TextButton(
                                 // button9zK (4:102)
@@ -219,16 +222,16 @@ class Scene extends StatelessWidget {
                                   padding: EdgeInsets.zero,
                                 ),
                                 child: Container(
-                                  width: double.infinity,
-                                  height: 52*fem,
+                                  width: 200,
+                                  height: 52,
                                   decoration: BoxDecoration (
                                     color: Color(0xff597b71),
                                     borderRadius: BorderRadius.circular(5*fem),
                                     boxShadow: [
                                       BoxShadow(
                                         color: Color(0x7f675f5f),
-                                        offset: Offset(3*fem, 3*fem),
-                                        blurRadius: 4*fem,
+                                        offset: Offset(3, 3),
+                                        blurRadius: 4,
                                       ),
                                     ],
                                   ),
@@ -237,9 +240,9 @@ class Scene extends StatelessWidget {
                                       'Get OTP',
                                       style: SafeGoogleFont (
                                         'Montserrat',
-                                        fontSize: 18*ffem,
+                                        fontSize: 18,
                                         fontWeight: FontWeight.w600,
-                                        height: 1.2175*ffem/fem,
+                                        height: 1.2175,
                                         color: Color(0xfff5f2eb),
                                       ),
                                     ),
@@ -331,9 +334,8 @@ class Scene extends StatelessWidget {
                 ],
               ),
             ),
-          ],
-        ),
-      ),
-          );
+
+
+    );
   }
 }
