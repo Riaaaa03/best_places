@@ -16,7 +16,7 @@ class Scene extends StatelessWidget {
         // onboardingh9V (4:45)
         padding: EdgeInsets.fromLTRB(0, 14, 0, 76),
         width: 1500,
-        decoration: BoxDecoration (
+        decoration: BoxDecoration(
           color: Color(0xff393e41),
         ),
         child: Column(
@@ -123,7 +123,7 @@ class Scene extends StatelessWidget {
                     margin: EdgeInsets.fromLTRB(0, 70, 0, 14),
                     child: Text(
                       'LOGIN',
-                      style: SafeGoogleFont (
+                      style: SafeGoogleFont(
                         'Montserrat',
                         fontSize: 24,
                         fontWeight: FontWeight.w900,
@@ -136,7 +136,7 @@ class Scene extends StatelessWidget {
                     // logintocontinueYfD (4:48)
                     'Login to continue',
                     textAlign: TextAlign.center,
-                    style: SafeGoogleFont (
+                    style: SafeGoogleFont(
                       'Montserrat',
                       fontSize: 18,
                       fontWeight: FontWeight.w400,
@@ -152,13 +152,13 @@ class Scene extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(119, 0, 118, 96),
               child: TextButton(
                 onPressed: () {},
-                style: TextButton.styleFrom (
+                style: TextButton.styleFrom(
                   padding: EdgeInsets.zero,
                 ),
                 child: Container(
                   width: 1000,
                   height: 42,
-                  decoration: BoxDecoration (
+                  decoration: BoxDecoration(
                     color: Color(0xff597b71),
                     borderRadius: BorderRadius.circular(50),
                   ),
@@ -166,7 +166,7 @@ class Scene extends StatelessWidget {
                     child: Text(
                       'Login',
                       textAlign: TextAlign.center,
-                      style: SafeGoogleFont (
+                      style: SafeGoogleFont(
                         'Montserrat',
                         fontSize: 18,
                         fontWeight: FontWeight.w600,
@@ -192,7 +192,6 @@ class Scene extends StatelessWidget {
           ],
         ),
       ),
-      );
-
+    );
   }
 }
