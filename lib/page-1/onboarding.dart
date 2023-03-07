@@ -147,7 +147,7 @@ class Scene extends StatelessWidget {
                 width: 25,
                 height: 70,
                 child: Image.asset(
-                  'assets/page-1/images/Arrow 1.png',
+                  'assets/page-1/images/Arrow1.png',
                   width: 25,
                   height: 50,
                 ),
