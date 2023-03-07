@@ -15,11 +15,11 @@ class Scene extends StatelessWidget {
       child: Container(
         // frame19dV (1:3)
         width: double.infinity,
-        height: 100*fem,
-        decoration: BoxDecoration (
+        height: 100 * fem,
+        decoration: BoxDecoration(
           color: Color(0xfff1fffa),
         ),
       ),
-          );
+    );
   }
 }
